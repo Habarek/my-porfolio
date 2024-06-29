@@ -1,0 +1,135 @@
+body {
+  background-color: #5c48d2;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  font-size: 16px;
+}
+h1 {
+  font-size: 48px;
+  color: white;
+  height: 200px;
+}
+
+.main-block {
+  width: 1024px;
+  background-color: white;
+  height: 500px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+nav {
+  height: 100px;
+  size: 20px;
+  color: #190f33;
+  display: flex;
+  justify-content: space-between;
+}
+a:hover {
+  color: #5c48d2;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+
+.image img {
+  height: 400px;
+  width: 1024px;
+  object-fit: cover;
+}
+.aboutMe {
+  background-color: white;
+}
+.formation {
+  background-color: #eeeef7;
+}
+.projects {
+  background-color: white;
+}
+.contact {
+  background-color: #eeeef7;
+}
+.photo img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: #fcc01a solid 3px;
+}
+
+.profil {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  line-height: 30px;
+}
+
+.nom {
+  font-size: 38px;
+  color: #190f33;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #190f33;
+  margin-bottom: 40px;
+}
+
+.ville {
+  font-size: 30px;
+  color: #190f33;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #190f33;
+  margin-bottom: 80px;
+}
+
+.logo img {
+  height: 100px;
+}
+strong {
+  font-weight: bold;
+  /* La balise strong est inline elle se situe dans le ficher HTML */
+}
+
+.tripadvisor {
+  display: flex;
+  justify-content: center;
+}
+
+.deliveroo {
+  display: flex;
+  justify-content: center;
+}
+.vinted {
+  display: flex;
+  justify-content: center;
+}
+.airbnb {
+  display: flex;
+  justify-content: center;
+}
+
+.projects img {
+  width: 500px;
+  margin-right: 60px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+li {
+  line-height: 30px;
+  list-style-type: disc;
+}

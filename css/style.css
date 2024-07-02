@@ -133,3 +133,29 @@ li {
   line-height: 30px;
   list-style-type: disc;
 }
+
+.contact img {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.mail {
+  display: flex;
+}
+
+footer {
+  height: 300px;
+}
+
+footer p {
+  color: #c4c4c4;
+  line-height: 40px;
+}
+footer a {
+  color: #fcc01a;
+  line-height: 40px;
+}
+
+footer a:hover {
+  color: #190f33;
+}

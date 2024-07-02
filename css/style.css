@@ -18,8 +18,7 @@ h1 {
   margin: 0 auto;
 }
 nav {
-  size: 20px;
-
+  font-size: 20px;
   height: 100px;
   color: #190f33;
   display: flex;

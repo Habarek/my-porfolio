@@ -6,7 +6,8 @@ body {
 h1 {
   font-size: 48px;
   color: white;
-  height: 200px;
+  line-height: 200px;
+  text-align: center;
 }
 
 .main-block {
@@ -17,11 +18,14 @@ h1 {
   margin: 0 auto;
 }
 nav {
-  height: 100px;
   size: 20px;
+
+  height: 100px;
   color: #190f33;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
 }
 a:hover {
   color: #5c48d2;
